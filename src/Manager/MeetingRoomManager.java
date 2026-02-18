@@ -1,8 +1,8 @@
 package Manager;
 
 import Repository.BookingRepository;
-import Repository.InMemoryBookingRepository;
-import Repository.InMemoryRoomRepository;
+import RepositoryImplementation.InMemoryBookingRepository;
+import RepositoryImplementation.InMemoryRoomRepository;
 import Repository.RoomRepository;
 import Service.BookingService;
 import Service.RoomService;

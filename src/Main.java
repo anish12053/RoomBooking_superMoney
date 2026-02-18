@@ -9,7 +9,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         MeetingRoomManager manager =
                 MeetingRoomManager.getInstance();
-
+        System.out.println("WRITE A COMMAND OR ENTER EXIT FOR EXITING");
         while (sc.hasNextLine()) {
 
             String input = sc.nextLine();
@@ -50,6 +50,9 @@ public class Main {
                                 .suggest(tokens[1], tokens[2],
                                         Integer.parseInt(tokens[3]));
                         break;
+                    case "EXIT":
+                        System.out.println("Exiting...");
+                        return;
 
                     default:
                         System.out.println("Invalid Command");

@@ -1,7 +1,8 @@
-package Repository;
+package RepositoryImplementation;
 
 import Model.Booking;
 import Model.TimeSlot;
+import Repository.BookingRepository;
 
 import java.util.*;
 
